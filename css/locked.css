@@ -1,0 +1,24 @@
+.second {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Special Elite;
+}
+
+.submit {
+    margin-top:15px;
+    font-family: Special Elite;
+    font-size:15px;
+    background: #b376f5;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+}
