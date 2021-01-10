@@ -47,5 +47,5 @@ initializeClock('countdown', deadline);
 // page redirect code!
 
 setTimeout(function(){
-    window.location.href = 'https://jesstsomethoughts.github.io/30aescaperoom/unlocked.html';
+    window.location.href = 'https://jesstsomethoughts.github.io/30aescaperoom/locked.html';
  }, 180000);
