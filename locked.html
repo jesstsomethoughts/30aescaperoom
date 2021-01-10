@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Escape Room!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <link href="css/locked.css" type="text/css" rel="stylesheet">
+        <script>
+            function checkPassword() {
+                var password = document.getElementById("passwordBox");
+                var passwordText = password.value;
+                if(passwordText == "ilovepi") {
+                    return true;
+                }
+                alert("Sorry! Looks like that's not quite right :/ Try again!");
+                return false;
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Please enter the password to continue:</h1>
+        <div class="second">
+            <h1>Enter here:<input id="passwordBox" type="password"></h1>
+            <a href="unlocked.html" onclick="return checkPassword();"><button class="submit" type="button">Submit</button></a>
+            </div>
+    </body>
+
+</html>
