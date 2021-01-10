@@ -38,7 +38,7 @@ function getTimeRemaining(endtime) {
     const timeinterval = setInterval(updateClock, 1000);
 }
 
-const timeInMinutes = 0.03;
+const timeInMinutes = 3;
 const currentTime = Date.parse(new Date());
 const deadline = new Date(currentTime + timeInMinutes*60*1000);
 initializeClock('countdown', deadline);
@@ -47,5 +47,5 @@ initializeClock('countdown', deadline);
 // page redirect code!
 
 setTimeout(function(){
-    window.location.href = '/unlocked.htm';
+    window.location.href = 'https://jesstsomethoughts.github.io/30aescaperoom/unlocked.html';
  }, 180000);
